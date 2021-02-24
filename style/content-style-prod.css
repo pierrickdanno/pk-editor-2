@@ -322,6 +322,9 @@
     color: var(--ck-color-mention-text);
 }
 @media print {
+    body {
+        margin: 0 !important;
+    }
     /* ckeditor5-page-break/theme/pagebreak.css */
     .ck-content .page-break {
         padding: 0;
@@ -330,4 +333,12 @@
     .ck-content .page-break::after {
         display: none;
     }
+}
+
+.ck-content .table thead {
+    display: table-row-group;
+}
+.ck-content .table tr {
+    break-inside: avoid;
+    break-after: auto;
 }

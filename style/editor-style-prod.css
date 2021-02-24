@@ -96,7 +96,6 @@
 }*/
 
 
-/* Adjust the headings dropdown to host some larger heading styles. */
 .document-editor .ck-heading-dropdown .ck-list .ck-button__label {
     line-height: calc( 1.7 * var(--ck-line-height-base) * var(--ck-font-size-base) );
     min-width: 6em;
@@ -112,54 +111,53 @@ Preserve the relative scale, though. */
 /* Set the styles for "Heading 1". */
 .document-editor .ck-content h2,
 .document-editor .ck-heading-dropdown .ck-heading_heading1 .ck-button__label {
-    font-size: 2.18em;
-    font-weight: normal;
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 .document-editor .ck-content h2 {
-    line-height: 1.37em;
-    padding-top: .342em;
-    margin-bottom: .142em;
+    line-height: inherit;
+    padding-top: 0;
+    margin-bottom: 0; 
 }
 
 /* Set the styles for "Heading 2". */
 .document-editor .ck-content h3,
 .document-editor .ck-heading-dropdown .ck-heading_heading2 .ck-button__label {
-    font-size: 1.75em;
-    font-weight: normal;
-    color: hsl( 203, 100%, 50% );
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
 }
 
 .document-editor .ck-heading-dropdown .ck-heading_heading2.ck-on .ck-button__label {
-    color: var(--ck-color-list-button-on-text);
+    color: inherit;
 }
 
 /* Set the styles for "Heading 2". */
 .document-editor .ck-content h3 {
-    line-height: 1.86em;
-    padding-top: .171em;
-    margin-bottom: .357em;
+    line-height: inherit;
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
 /* Set the styles for "Heading 3". */
 .document-editor .ck-content h4,
 .document-editor .ck-heading-dropdown .ck-heading_heading3 .ck-button__label {
-    font-size: 1.31em;
-    font-weight: bold;
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 .document-editor .ck-content h4 {
-    line-height: 1.24em;
-    padding-top: .286em;
-    margin-bottom: .952em;
+    line-height: inherit;
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
 /* Set the styles for "Paragraph". */
 .document-editor .ck-content p {
-    font-size: 1em;
-    line-height: 1.63em;
-    padding-top: .5em;
-    margin-bottom: 1.13em;
+    line-height: inherit;
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
 
