@@ -87,14 +87,6 @@
 
 /* ------- Paragraph Default Formating -----*/
 
-/*h2,p,h1, h3,h4,h5,h6,table,figure,span{
-    margin-block-end :0;
-    margin-block-start :0;
-    font-size:inherit;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-}*/
-
 
 .document-editor .ck-heading-dropdown .ck-list .ck-button__label {
     line-height: calc( 1.7 * var(--ck-line-height-base) * var(--ck-font-size-base) );
@@ -176,3 +168,28 @@ Preserve the relative scale, though. */
         z-index: 1600;
     }
 
+
+/* ------- Print Default Formating -----*/
+
+/*.document-editor .ck-content h2,.document-editor .ck-content p,
+.document-editor .ck-content h1,.document-editor .ck-content h3,
+.document-editor .ck-content h4,.document-editor .ck-content h5,
+.document-editor .ck-content h6,.document-editor .ck-content span,
+.document-editor .ck-content ul,.document-editor .ck-content ol{
+    margin-block-end :0;
+    margin-block-start :0;
+    font-size:inherit;
+    margin-inline-start: 0;
+    margin-inline-end: 0
+    margin : 0;
+}*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
