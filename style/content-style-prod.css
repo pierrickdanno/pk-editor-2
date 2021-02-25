@@ -5,8 +5,8 @@
  */
 
 :root {
-    --ck-color-mention-background: hsla(341, 100%, 30%, 0.1);
-    --ck-color-mention-text: hsl(341, 100%, 30%);
+    --ck-color-mention-background: #4ddfe8; /*MOFIFIED*/
+    --ck-color-mention-text: black;/*MOFIFIED*/
     --ck-highlight-marker-blue: hsl(201, 97%, 72%);
     --ck-highlight-marker-green: hsl(120, 93%, 68%);
     --ck-highlight-marker-pink: hsl(345, 96%, 73%);
@@ -318,8 +318,14 @@
 }
 /* ckeditor5-mention/theme/mention.css */
 .ck-content .mention {
-    background: var(--ck-color-mention-background);
-    color: var(--ck-color-mention-text);
+    /*background: var(--ck-color-mention-background);
+    color: var(--ck-color-mention-text);*/
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 50px;
+    background: #4ddfe8;
+    border-bottom: inset 2px #19bac4;
+    color: black;
 }
 @media print {
     body {
