@@ -144,6 +144,8 @@
 .ck-content .table {
     margin: 1em auto;
     display: table;
+    
+    
 }
 /* ckeditor5-table/theme/table.css */
 .ck-content .table table {
@@ -152,6 +154,7 @@
     width: 100%;
     height: 100%;
     border: 1px double hsl(0, 0%, 70%);
+
 }
 /* ckeditor5-table/theme/table.css */
 .ck-content .table table td,
@@ -159,12 +162,23 @@
     min-width: 2em;
     padding: .4em;
     border: 1px solid hsl(0, 0%, 75%);
+    
 }
 /* ckeditor5-table/theme/table.css */
 .ck-content .table table th {
     font-weight: bold;
     background: hsla(0, 0%, 0%, 5%);
+    
 }
+
+.ck-content .table thead {
+    display: table-row-group;
+}
+.ck-content .table tr {
+    break-inside: avoid;
+    break-after: auto;
+}
+
 /* ckeditor5-table/theme/table.css */
 .ck-content[dir="rtl"] .table th {
     text-align: right;
@@ -330,6 +344,7 @@
 @media print {
     body {
         margin: 0 !important;
+        color-adjust: exact;
     }
     /* ckeditor5-page-break/theme/pagebreak.css */
     .ck-content .page-break {
@@ -339,12 +354,5 @@
     .ck-content .page-break::after {
         display: none;
     }
-}
 
-.ck-content .table thead {
-    display: table-row-group;
-}
-.ck-content .table tr {
-    break-inside: avoid;
-    break-after: auto;
 }
