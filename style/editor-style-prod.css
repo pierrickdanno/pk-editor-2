@@ -184,12 +184,12 @@ Preserve the relative scale, though. */
     margin : 0;
 }*/
 
-html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, img, strike, strong, table, caption, tbody, tfoot, thead, th, td, embed, figure, figcaption, footer, header, section {
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, img, table, caption, tbody, tfoot, thead, th, td, embed, figure, figcaption, footer, header, section {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font:inherit;
     vertical-align: baseline;
     box-sizing: inherit;
 }

@@ -62,6 +62,8 @@
     padding: .6em;
     font-size: .75em;
     outline-offset: -1px;
+    width:auto;
+    min-height:auto;
 }
 /* ckeditor5-image/theme/image.css */
 .ck-content .image {
