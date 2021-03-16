@@ -72,6 +72,10 @@
     text-align: center;
     margin: 1em auto;
 }
+
+.ck-content .figure{
+    width:100%;
+}
 /* ckeditor5-image/theme/image.css */
 .ck-content .image img {
     display: block;
